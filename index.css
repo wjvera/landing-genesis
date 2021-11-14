@@ -1,0 +1,312 @@
+header {
+  border: 1px solid red;
+  background-image: url("logo/fondoheader2.png");
+  background-repeat: no-repeat;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+/*
+#logo {
+  border: 1px solid green;
+}
+
+#navegacion {
+  border: 1px solid red;
+}*/
+
+#navegacion li a {
+  color: white;
+}
+
+#descripcionheader h1 {
+  color: white;
+}
+
+#descripcionheader h5 {
+  color: white;
+}
+
+#imagenheader {
+  border: 1px solid violet;
+}
+
+#descripcionheader {
+  border: 1px solid red;
+}
+
+/* despues del header */
+
+#central {
+  margin-top: 100px;
+}
+
+/*
+#des {
+  border: 1px solid green;
+}
+
+#des2 {
+  border: 1px solid green;
+}
+
+#tar1 {
+  border: 1px solid green;
+}*/
+
+#tar12 {
+  border: 1px solid red;
+}
+
+#tar12 a {
+  color: black;
+  text-decoration: none;
+}
+
+#tar12 h3 {
+  text-align: center;
+}
+/*
+#tar2 {
+  border: 1px solid violet;
+}*/
+
+/*slider clientes*/
+
+.carouselcontenedor {
+  position: relative;
+}
+
+.carouselanterior,
+.carouselsiguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: 40%;
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  color: black;
+  opacity: 20%;
+}
+
+.carouselanterior:hover,
+.carouselsiguiente:hover {
+  opacity: 100%;
+}
+
+.carouselanterior {
+  left: -30px;
+}
+
+.carouselsiguiente {
+  right: -30px;
+}
+
+#section1 {
+  padding-bottom: 100px;
+  background: #f8f8ff;
+  /*border: 1px solid red;*/
+}
+
+#cont1 {
+  margin-top: 150px;
+}
+/*
+#section2 {
+  border: 1px solid green;
+}*/
+
+#cap,
+#cap2 {
+  /*border: 1px solid violet;*/
+  color: #636363;
+}
+
+/*slider de las herramientas*/
+
+#sli {
+  /*border: 1px solid violet;*/
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.slider {
+  vertical-align: baseline;
+  /*border: 1px solid yellow;*/
+  display: flex;
+  height: 100px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.slider img {
+  object-fit: cover;
+  scroll-snap-align: center;
+  margin-right: 48px;
+  /*border: 1px solid red;*/
+
+  transition: all 300ms;
+}
+
+.slider img:hover {
+  transform: scale(1.15);
+}
+
+/* escritorio y movil */
+
+#section3 {
+  /*border: 1px solid skyblue;*/
+  background: #f8f8ff;
+  padding: 10px;
+}
+
+/*
+#desk-and-movil {
+  border: 1px solid green;
+}
+
+#section3 .col-md-3 {
+  border: 1px solid red;
+}*/
+
+#section3 .col-md-3 p {
+  color: #636363;
+}
+
+#ti {
+  text-shadow: 0em 0em 0.1em black;
+}
+
+.col-md-3 img {
+  text-align: center;
+  /*border: 1px solid yellow;*/
+}
+
+/* mas tarjetas*/
+/*
+#tarj {
+  border: 1px solid red;
+}*/
+
+#text {
+  color: #636363;
+}
+
+/*
+#ti_card,
+#ti_card1 {
+  border: 1px solid green;
+}*/
+
+#moretools {
+  margin-bottom: 100px;
+}
+
+/* mas tarjetas */
+#section4 {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+#text1 {
+  color: #636363;
+  line-height: 3.5;
+}
+
+.col-lg-7 img {
+  box-shadow: 0 0 10px #444444;
+}
+
+#section4 #sec1 {
+  /*border: 1px solid violet;*/
+  margin-bottom: 30px;
+}
+
+#section5 {
+  /*border: 1px solid skyblue;*/
+  background: #f8f8ff;
+  padding-bottom: 100px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+footer .row {
+  padding-top: 50px;
+}
+
+footer li {
+  list-style: none;
+  line-height: 2;
+}
+
+footer li:hover {
+  color: rgb(66, 66, 228);
+  cursor: pointer;
+}
+
+/*
+footer .col-lg-4 {
+  border: 1px solid red;
+}*/
+
+/**/
+footer .switch {
+  background: #343d5b;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+footer .switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background: #f1f1f1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.5s ease all;
+  box-shadow: 0px 0px 1.5px 1.5px rgba(0, 0, 0, 0.5);
+}
+
+footer .switch:active {
+  background: #fdd384;
+}
+footer .switch:active::after {
+  left: unset;
+  right: 0;
+}
+
+body {
+  background: #fff;
+  color: #000;
+}
+
+body.dark {
+  background: #222;
+  color: #fff;
+}
