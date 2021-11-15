@@ -200,6 +200,10 @@ header {
   padding: 10px;
 }
 
+#sec1 img {
+  border-radius: 200px;
+}
+
 /*
 #desk-and-movil {
   border: 1px solid green;
