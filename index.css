@@ -1,6 +1,6 @@
 header {
   border: 1px solid red;
-  background-image: url("logo/fondoheader2.png");
+  /*background-image: url("logo/fondoheader2.png");*/
   background-repeat: no-repeat;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
@@ -14,17 +14,10 @@ header {
 }*/
 
 #navegacion li a {
-  color: white;
+  color: rgba(0, 0, 0, 0.15);
 }
 
-#descripcionheader h1 {
-  color: white;
-}
-
-#descripcionheader h5 {
-  color: white;
-}
-
+/*
 #imagenheader {
   border: 1px solid violet;
 }
@@ -32,11 +25,46 @@ header {
 #descripcionheader {
   border: 1px solid red;
 }
+*/
 
 /* despues del header */
 
 #central {
   margin-top: 100px;
+}
+
+.carouselcontenedorslider img {
+  position: relative;
+  width: 100%;
+}
+
+.carouselanteriorslider,
+.carouselsiguienteslider {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: 40%;
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  color: black;
+  opacity: 20%;
+}
+
+.carouselanteriorslider:hover,
+.carouselsiguienteslider:hover {
+  opacity: 100%;
+}
+
+.carouselanteriorslider {
+  left: -30px;
+}
+
+.carouselsiguienteslider {
+  right: -30px;
 }
 
 /*
@@ -52,9 +80,10 @@ header {
   border: 1px solid green;
 }*/
 
+/*
 #tar12 {
   border: 1px solid red;
-}
+}*/
 
 #tar12 a {
   color: black;

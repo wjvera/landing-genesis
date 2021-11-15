@@ -22,7 +22,7 @@
 
 <body>
     <!-- header -->
-    <header class="img-fluid">
+    <header class="">
 
         <!-- navbar -->
         <div class="container">
@@ -89,36 +89,82 @@
                     </ul>
 
                 </div>
+
             </nav>
 
-    
 
-            <div class="row mt-5">
+    </header>
 
-                <div class="col-lg-6" id="imagenheader">
-                    <a href="#">
-                        <img src="" width="720" height="480">
-                    </a>
+    <!--Slider
+
+    <div class="slider">
+        <ul>
+            <li>
+                <img src="imagenes-carousel/distribuidores.png" alt="">
+            </li>
+
+            <li>
+                <img src="imagenes-carousel/gasolinera.png" alt="">
+            </li>
+
+            <li>
+                <img src="imagenes-carousel/restaurant.png" alt="">
+            </li>
+
+            <li>
+                <img src="imagenes-carousel/contable.png" alt="">
+            </li>
+
+            <li>
+                <img src="imagenes-carousel/costos.png" alt="">
+            </li>
+        </ul>
+    </div>-->
+
+    <div class="carouselslider"> 
+            
+        <div class="carouselcontenedorslider"> 
+
+            <button aria-label="Anterior" class="carouselanteriorslider">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="carousellistaslider">
+
+                <div class="carouselelementoslider">
+                    <img src="imagenes-carousel/contable.png" alt="">
                 </div>
 
-                <div class="col-lg-6" id="descripcionheader">
-                    <h1 class="mt-5">
-                        The Most Advanced Penetration Testing Distribution
-                    </h1>
-
-                    <h5 class="mt-5">
-                        Kali Linux is an open-source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering.
-                    </h5>
-
-                    <button type="button" class="btn btn-outline-warning btn-lg mt-5">DESCARGAR</button>
-                    <button type="button" class="btn btn-primary btn-lg mt-5">DOCUMENTACION</button>
+                <div class="carouselelementoslider">
+                    <img src="imagenes-carousel/costos.png" alt="">
                 </div>
+
+                <div class="carouselelementoslider">
+                    <img src="imagenes-carousel/distribuidores.png" alt="">
+                </div>
+
+                <div class="carouselelementoslider">
+                    <img src="imagenes-carousel/gasolinera.png" alt="">
+                </div>
+
+                <div class="carouselelementoslider">
+                    <img src="imagenes-carousel/restaurant.png" alt="">
+                </div>
+
 
             </div>
 
+            <button aria-label="Siguiente" class="carouselsiguienteslider">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
 
-    </header>
+        <div role="tablist" class="carouselindicadoresslider">
+
+        </div>
+    </div>
+
+
 
     <!-- body -->
 
@@ -216,7 +262,9 @@
     </section>
 
     <div class="container">
+
         <div class="carousel"> 
+
             <div class="carouselcontenedor"> 
 
                 <button aria-label="Anterior" class="carouselanterior">

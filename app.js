@@ -9,3 +9,15 @@ window.addEventListener('load', function(){
         }
     });
 })
+
+window.addEventListener('load', function(){
+  new Glider(document.querySelector('.carousellistaslider'), {
+      slidesToShow: 1,
+      slidesToScroll: 2,
+      dots: '.carouselindicadoresslider',
+      arrows: {
+        prev: '.carouselanteriorslider',
+        next: '.carouselsiguienteslider'
+      }
+  });
+})
