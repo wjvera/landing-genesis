@@ -85,6 +85,14 @@ header {
   border: 1px solid red;
 }*/
 
+#desk-and-movil {
+  border: 1px solid green;
+}
+
+#desk-and-movil #video1 {
+  border: 1px solid red;
+}
+
 #tar12 a {
   color: black;
   text-decoration: none;
