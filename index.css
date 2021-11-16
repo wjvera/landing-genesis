@@ -1,5 +1,5 @@
 header {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   /*background-image: url("logo/fondoheader2.png");*/
   background-repeat: no-repeat;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
@@ -85,12 +85,17 @@ header {
   border: 1px solid red;
 }*/
 
+/*
 #desk-and-movil {
   border: 1px solid green;
 }
 
 #desk-and-movil #video1 {
   border: 1px solid red;
+}*/
+
+#desk-and-movil #video1 img {
+  border-radius: 30px;
 }
 
 #tar12 a {
@@ -201,17 +206,8 @@ header {
 }
 
 #sec1 img {
-  border-radius: 200px;
+  border-radius: 30px;
 }
-
-/*
-#desk-and-movil {
-  border: 1px solid green;
-}
-
-#section3 .col-md-3 {
-  border: 1px solid red;
-}*/
 
 #section3 .col-md-3 p {
   color: #636363;
@@ -232,21 +228,23 @@ header {
   border: 1px solid red;
 }*/
 
+#tarj img {
+  border: 1px solid red;
+}
+
 #text {
   color: #636363;
 }
-
-/*
-#ti_card,
-#ti_card1 {
-  border: 1px solid green;
-}*/
 
 #moretools {
   margin-bottom: 100px;
 }
 
 /* mas tarjetas */
+
+#titlepro {
+  text-align: center;
+}
 #section4 {
   margin-top: 100px;
   margin-bottom: 200px;
