@@ -230,6 +230,8 @@ header {
   padding-bottom: 100px;
 }
 
+/* footer */
+
 footer {
   background: black;
   color: white;
@@ -240,72 +242,10 @@ footer .row {
   padding-top: 50px;
 }
 
-footer li {
-  list-style: none;
-  line-height: 2;
-}
-
-footer li:hover {
-  color: rgb(66, 66, 228);
-  cursor: pointer;
-}
-
-/*
-footer .col-lg-4 {
+#footerg #foo {
   border: 1px solid red;
-}*/
-
-/**/
-footer .switch {
-  background: #343d5b;
-  border-radius: 1000px;
-  border: none;
-  position: relative;
-  cursor: pointer;
-  display: flex;
-  outline: none;
-  align-items: center;
-  justify-content: space-between;
 }
 
-footer .switch span {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  display: block;
-  background: none;
-  color: #fff;
-}
-
-footer .switch::after {
-  content: "";
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  background: #f1f1f1;
-  top: 0;
-  left: 0;
-  right: unset;
-  border-radius: 100px;
-  transition: 0.5s ease all;
-  box-shadow: 0px 0px 1.5px 1.5px rgba(0, 0, 0, 0.5);
-}
-
-footer .switch:active {
-  background: #fdd384;
-}
-footer .switch:active::after {
-  left: unset;
-  right: 0;
-}
-
-body {
-  background: #fff;
-  color: #000;
-}
-
-body.dark {
-  background: #222;
-  color: #fff;
+#foo iframe {
+  width: 100%;
 }
