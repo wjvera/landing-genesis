@@ -1,31 +1,11 @@
 header {
-  /*border: 1px solid red;*/
-  /*background-image: url("logo/fondoheader2.png");*/
   background-repeat: no-repeat;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
 }
-/*
-#logo {
-  border: 1px solid green;
-}
-
-#navegacion {
-  border: 1px solid red;
-}*/
 
 #navegacion li a {
   color: rgba(0, 0, 0, 0.15);
 }
-
-/*
-#imagenheader {
-  border: 1px solid violet;
-}
-
-#descripcionheader {
-  border: 1px solid red;
-}
-*/
 
 /* despues del header */
 
@@ -68,33 +48,6 @@ header {
   right: -30px;
 }
 
-/*
-#des {
-  border: 1px solid green;
-}
-
-#des2 {
-  border: 1px solid green;
-}
-
-#tar1 {
-  border: 1px solid green;
-}*/
-
-/*
-#tar12 {
-  border: 1px solid red;
-}*/
-
-/*
-#desk-and-movil {
-  border: 1px solid green;
-}
-
-#desk-and-movil #video1 {
-  border: 1px solid red;
-}*/
-
 #desk-and-movil #video1 img {
   border-radius: 30px;
 }
@@ -107,10 +60,6 @@ header {
 #tar12 h3 {
   text-align: center;
 }
-/*
-#tar2 {
-  border: 1px solid violet;
-}*/
 
 /*slider clientes*/
 
@@ -151,7 +100,6 @@ header {
 #section1 {
   padding-bottom: 50px;
   background: #f8f8ff;
-  /*border: 1px solid red;*/
 }
 
 #cont1 {
@@ -160,21 +108,19 @@ header {
 
 #cap,
 #cap2 {
-  /*border: 1px solid violet;*/
   color: #636363;
 }
 
 /*slider de las herramientas*/
 
 #sli {
-  /*border: 1px solid violet;*/
   margin-top: 30px;
   margin-bottom: 100px;
 }
 
 .slider {
   vertical-align: baseline;
-  /*border: 1px solid yellow;*/
+
   display: flex;
   height: 100px;
 
@@ -186,7 +132,6 @@ header {
   object-fit: cover;
   scroll-snap-align: center;
   margin-right: 48px;
-  /*border: 1px solid red;*/
 
   transition: all 300ms;
 }
@@ -198,7 +143,6 @@ header {
 /* escritorio y movil */
 
 #section3 {
-  /*border: 1px solid skyblue;*/
   background: #f8f8ff;
   padding: 10px;
 }
@@ -217,12 +161,9 @@ header {
 
 .col-md-3 img {
   text-align: center;
-  /*border: 1px solid yellow;*/
 }
 
-/* mas tarjetas*/
-
-#text {
+#sec1 p {
   color: #636363;
 }
 
@@ -280,7 +221,6 @@ header {
 }
 
 #section4 #sec1 {
-  /*border: 1px solid violet;*/
   margin-bottom: 30px;
 }
 
@@ -288,6 +228,7 @@ header {
   padding-top: 50px;
   background: #f8f8ff;
   padding-bottom: 100px;
+  border: 1px solid green;
 }
 
 footer {
