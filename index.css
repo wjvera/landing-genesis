@@ -232,6 +232,10 @@ header {
   border: 1px solid red;
 }
 
+#tarj {
+  padding: 20px;
+}
+
 #text {
   color: #636363;
 }
