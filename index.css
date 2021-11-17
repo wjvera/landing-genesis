@@ -30,7 +30,8 @@ header {
 /* despues del header */
 
 #central {
-  margin-top: 100px;
+  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .carouselcontenedorslider img {
@@ -115,6 +116,7 @@ header {
 
 .carouselcontenedor {
   position: relative;
+  margin-bottom: 50px;
 }
 
 .carouselanterior,
@@ -147,18 +149,14 @@ header {
 }
 
 #section1 {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background: #f8f8ff;
   /*border: 1px solid red;*/
 }
 
 #cont1 {
-  margin-top: 150px;
+  margin-top: 50px;
 }
-/*
-#section2 {
-  border: 1px solid green;
-}*/
 
 #cap,
 #cap2 {
@@ -223,25 +221,9 @@ header {
 }
 
 /* mas tarjetas*/
-/*
-#tarj {
-  border: 1px solid red;
-}*/
-
-#tarj img {
-  border: 1px solid red;
-}
-
-#tarj {
-  padding: 20px;
-}
 
 #text {
   color: #636363;
-}
-
-#moretools {
-  margin-bottom: 100px;
 }
 
 /* mas tarjetas */
@@ -249,9 +231,43 @@ header {
 #titlepro {
   text-align: center;
 }
+
+.containerpro {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.imagenespro {
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 30px;
+  object-fit: cover;
+  filter: brightness(80%);
+  animation: pulsar 1.5s infinite alternate;
+}
+
+@keyframes pulsar {
+  to {
+    transform: scale(1);
+  }
+
+  from {
+    transform: scale(1.05);
+  }
+}
+
+.imagenespro:hover {
+  filter: brightness(100%);
+}
+
 #section4 {
-  margin-top: 100px;
-  margin-bottom: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #text1 {
@@ -269,7 +285,7 @@ header {
 }
 
 #section5 {
-  /*border: 1px solid skyblue;*/
+  padding-top: 50px;
   background: #f8f8ff;
   padding-bottom: 100px;
 }
