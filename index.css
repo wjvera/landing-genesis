@@ -240,9 +240,10 @@ header {
 }
 
 footer {
+  padding-top: 20px;
   bottom: 0px;
   width: 100%;
-  background: #f8f8ff;
+  background: white;
 }
 .main-content {
   display: flex;
@@ -255,6 +256,7 @@ footer {
   font-size: 1.125rem;
   font-weight: 600;
   text-transform: uppercase;
+  text-align: center;
 }
 .box .content {
   margin: 20px 0 0 0;
