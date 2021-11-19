@@ -1,15 +1,19 @@
 :root {
-  --primary: red;
+  --primary: #199eb8;
   --light: #eeeeee;
-  --dark: #212121;
+  --dark: #7c7578;
 }
 
-.container {
+.containernav {
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.containernav img {
+  border-radius: 20px;
 }
 
 nav {
@@ -20,7 +24,7 @@ nav {
   z-index: 99;
   background-color: var(--dark);
   padding: 16px 32px;
-  border-bottom: 2px solid var(--primary);
+  border-bottom: 5px solid var(--primary);
 }
 
 .expandir {
@@ -48,8 +52,58 @@ nav {
   transition: 0.4s;
 }
 
+.expandir:hover span:nth-child(2) {
+  transform: translateX(10px);
+  background-color: var(--primary);
+}
+
+.expandir.is-active span:nth-child(1) {
+  transform: translate(0px, -2px) rotate(45deg);
+}
+
+.expandir.is-active span:nth-child(2) {
+  opacity: 0;
+  transform: translateX(15px);
+}
+
+.expandir.is-active span:nth-child(3) {
+  transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+.expandir.is-active:hover span {
+  background-color: var(--primary);
+}
+
 .menu {
   display: none;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  margin: 0 -16px;
+}
+
+.menu a {
+  color: #fff;
+  margin: 0 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  border-radius: 99px;
+}
+
+.menu a.is-active,
+.menu a:hover {
+  background-color: var(--primary);
+}
+
+@media (min-width: 758px) {
+  .expandir {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
 }
 
 /*---------------*/
