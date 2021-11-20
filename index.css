@@ -1,115 +1,13 @@
 :root {
-  --primary: #199eb8;
+  --primary: #00128d;
   --light: #eeeeee;
   --dark: #7c7578;
-  --letra: #3498db;
-}
-/*
-.containernav {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
-.containernav img {
-  border-radius: 20px;
-}
+/* ---- navbar ---- */
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  background-color: var(--dark);
-  padding: 16px 32px;
-  border-bottom: 5px solid var(--primary);
-}
-
-.expandir {
-  display: block;
-  position: relative;
-  z-index: 1;
-  user-select: none;
-  appearance: none;
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-}
-
-.expandir span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background-color: var(--light);
-  border-radius: 6px;
-  z-index: 1;
-  transform-origin: 0 0;
-  transition: 0.4s;
-}
-
-.expandir:hover span:nth-child(2) {
-  transform: translateX(10px);
-  background-color: var(--primary);
-}
-
-.expandir.is-active span:nth-child(1) {
-  transform: translate(0px, -2px) rotate(45deg);
-}
-
-.expandir.is-active span:nth-child(2) {
-  opacity: 0;
-  transform: translateX(15px);
-}
-
-.expandir.is-active span:nth-child(3) {
-  transform: translate(-3px, 3px) rotate(-45deg);
-}
-
-.expandir.is-active:hover span {
-  background-color: var(--primary);
-}
-
-.menu {
-  display: none;
-  flex: 1 1 0%;
-  justify-content: flex-end;
-  margin: 0 -16px;
-}
-
-.menu a {
-  color: #fff;
-  margin: 0 16px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.4s;
-  padding: 8px 16px;
-  border-radius: 99px;
-}
-
-.menu a.is-active,
-.menu a:hover {
-  background-color: var(--primary);
-}
-
-@media (min-width: 758px) {
-  .expandir {
-    display: none;
-  }
-
-  .menu {
-    display: flex;
-  }
-}
-*/
-
-nav {
-  background: var(--dark);
+  background: var(--primary);
   height: 80px;
   width: 100%;
 }
@@ -205,6 +103,10 @@ a:hover {
   transform-style: preserve-3d;
 }
 
+#slider img {
+  border-radius: 10px;
+}
+
 #slider label {
   margin: auto;
   width: 100%;
@@ -262,7 +164,7 @@ a:hover {
   transform: translate3d(30%, 0, -200px);
 }
 
-/*---------------*/
+/* ----- Headers ----- */
 
 #logoo img {
   height: 50px;
@@ -278,8 +180,6 @@ header {
 #navegacion li a {
   color: rgba(0, 0, 0, 0.15);
 }
-
-/* despues del header */
 
 #central {
   padding-top: 50px;
@@ -331,6 +231,10 @@ header {
 
 #tar12 h3 {
   text-align: center;
+}
+
+#tar12 img {
+  border-radius: 10px;
 }
 
 /*slider clientes*/
@@ -515,7 +419,7 @@ footer {
   padding-top: 20px;
   bottom: 0px;
   width: 100%;
-  background-color: var(--dark);
+  background-color: var(--primary);
 }
 .main-content {
   display: flex;

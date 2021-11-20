@@ -24,9 +24,3 @@ window.addEventListener('load', function(){
 
 
 
-/*
-const expandir = document.querySelector('.expandir')
-
-expandir.addEventListener('click', function(){
-  this.classList.toggle('is-active');
-})*/
