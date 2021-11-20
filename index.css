@@ -30,9 +30,9 @@ nav ul li a {
   padding: 8px 16px;
   border-radius: 99px;
 }
-a.active,
-a:hover {
-  background: var(--primary);
+li a.active,
+li a:hover {
+  background: var(--dark); /*oooooojoooooo*/
   color: white;
   font-size: 20px;
   transition: 0.5s;
