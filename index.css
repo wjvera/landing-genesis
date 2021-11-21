@@ -32,7 +32,7 @@ nav ul li a {
 }
 li a.active,
 li a:hover {
-  background: var(--dark); /*oooooojoooooo*/
+  background: var(--dark);
   color: white;
   font-size: 20px;
   transition: 0.5s;
